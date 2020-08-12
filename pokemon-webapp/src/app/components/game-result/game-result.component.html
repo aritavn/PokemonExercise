@@ -1,0 +1,3 @@
+<h4 *ngIf="numberOfPokemons">Apanhaste {{ numberOfPokemons }} pokemons!</h4>
+<h5 *ngIf="!numberOfPokemons">Ocorreu um erro, tenta outra vez.</h5>
+<button class="btn btn-light m-3" [routerLink]="['/play']">Voltar</button>

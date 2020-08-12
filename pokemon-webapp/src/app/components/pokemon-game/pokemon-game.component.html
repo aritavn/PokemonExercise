@@ -1,0 +1,23 @@
+<h4>Clica nas direções para mover o Ash e apanhar pokemons</h4>
+
+<table class="m-3">
+    <tr>
+        <td></td>
+        <td><button class="btn btn-light" (click)="addDirection('N')">N</button></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><button class="btn btn-light" (click)="addDirection('O')">O</button></td>
+        <td></td>
+        <td><button class="btn btn-light" (click)="addDirection('E')">E</button></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><button class="btn btn-light" (click)="addDirection('S')">S</button></td>
+        <td></td>
+    </tr>
+</table>
+
+<h5>Direções: {{ directions }}</h5>
+
+<button class="btn btn-light m-3" (click)="play()">Jogar</button>

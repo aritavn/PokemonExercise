@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: #0098fd !important;
+    color: white !important;
+}
+
+table button {
+    height: 40px;
+    width: 40px;
+}
+
+h1 {
+    color: #ebc21e;
+}
